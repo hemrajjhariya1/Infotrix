@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> weather app</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="today"> Today </li>
+            <li class="hourly"> Hourly </li>
+            <li class="radar"> Radar </li>
+            <li class="search"> search... </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="cont_head">
+            <h3 class="city_name"> Jabalpur, Madhyapradesh</h3>
+            <p class="date"> </p>
+            <hr>
+        </div>
+        <div class="cont_bottom">
+            <h1 class="temperature"> 25 </h1>
+            <h3 class="fog"> fog </h3>
+            <div class="day_night">
+                <h4 class="day_night_2"> day <h4 class="temperature">25</h4>
+                </h4>
+                <h4 class="day_night_2"> night <h4 class="temperature_night"> 15 </h4>
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container_forecast">
+        <div class="cont_forecast_head">
+            <h3 class="city_name"> Jabalpur, Madhyapradesh</h3>
+            <h3> Forecast </h3>
+            <hr>
+        </div>
+        <div class="cont_forecast_bottom">
+            <div class="button">
+                <button class="today"> Today </button>
+                <button class="hourly"> Hourly </button>
+                <button class="today"> Daily </button>
+            </div>
+            <div class="allday">
+                <div>
+                    <h6> Morning </h6>
+                    <h6 class="temperature_morning"> 18 </h6>
+                </div>
+                <div>
+                    <h6> Afternoon </h6>
+                    <h6 class="temperature"> 23 </h6>
+                </div>
+                <div>
+                    <h6> Evening </h6>
+                    <h6 class="temperature_evening"> 18 </h6>
+                </div>
+                <div>
+                    <h6> Overnight </h6>
+                    <h6 class="temperature_night"> 15 </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container_weather">
+        <div class="cont_weather_head">
+            <h3> Weather Today in </h3>
+            <h3 class="city_name"> Jabalpur, Madhya pradesh</h3>
+            <hr>
+        </div>
+        <div class="cont_weather_body">
+            <h3 class="temperature"> 23 </h3>
+            <div class="sunrise_sunset">
+                <div class="sunrise">
+                    <h4> sunrise: </h4>
+                    <h4 class="sunrise_data"> 6:53 </h4>
+                </div>
+                <div class="sunset">
+                    <h4> sunset: </h4>
+                    <h4 class="sunset_data"> 17:53 </h4>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="cont_weather_bottom">
+            <div class="wind">
+                <h4> Wind</h4>
+                <h4 class="wind_data"> 11 km/h </h4>
+            </div>
+            <hr>
+            <div class="humidity">
+                <h4> Humidity</h4>
+                <h4 class="humidity_data"> 71% </h4>
+            </div>
+            <hr>
+            <div class="pressure">
+                <h4> Pressure</h4>
+                <h4 class="pressure_data"> 1015.2 mb </h4>
+            </div>
+            <hr>
+            <div class="visibility">
+                <h4> Visibility</h4>
+                <h4 class="visibility_data"> 1.5 km</h4>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="container_AQI">
+        <h3> Air Quality Index </h3><hr>
+        <div class="container_AQI_body">
+            <div class="AQI_circle">
+                <h4 class="AQI_data"> 100 </h4>
+            </div>
+            <div class="AQI_advise">
+                <h3 class="AQI_advise_head"> Satisfactory </h3>
+                <p class="AQI_advise_body"> 
+                    An AQI of 100 is considered moderate and generally doesn't pose a significant risk to most people. </p>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+
+</html>
